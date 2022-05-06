@@ -25,4 +25,4 @@
  >![image](https://user-images.githubusercontent.com/46208115/167090729-eb6fad14-23c3-4762-90ca-8f07ea4cbbf1.png)
 ---
 ## Ending
->假设对你有帮助，请别忘记点star！
+>假如对你有帮助，请别忘记star！
