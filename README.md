@@ -4,10 +4,9 @@
 ## 文献分享  
  >在准备毕业论文过程中，本人整理了近年来关于inpainting的pdf文献（收集了16-22年计算机视觉三大顶会（ICCV、CVPR、ECCV）和（WACV、ACCV）大概50篇左右关于inpainting的论文，收寻的数量上重点在近三四年，早年主要寻求代表作），并且整理了表格（表格中整理了相关文献的摘要、介绍、结论等内容），如果需要该资料，[请点击这里](https://drive.google.com/file/d/1nFDeJMDdcGJxqwqJ0MdTGMFpPS2uCUYZ/view?usp=sharing)。
 ---
->>注意：其中因模型权重文件大小限制，需要自行[下载](https://github.com/knazeri/edge-connect)
 ## 模型介绍（[EdgeConnect](https://github.com/knazeri/edge-connect)）
 ![image](https://user-images.githubusercontent.com/46208115/167091435-d5771bdd-052a-4a34-b61d-3b85738ee1a3.png)
-
+>>注意：其中因模型权重文件大小限制，需要自行[下载](https://github.com/knazeri/edge-connect)
 ## 平台展示
 ![image](https://user-images.githubusercontent.com/46208115/167090145-4fb215e9-577b-4b6f-aa94-20603faf44f7.png)
 ![image](https://user-images.githubusercontent.com/46208115/167090202-5c938ec8-c2fd-4b9f-bca2-5c6428c6491f.png)
