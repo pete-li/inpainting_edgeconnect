@@ -1,14 +1,16 @@
 ﻿# 深度学习图像修复平台
- >忙了很久，毕设终于完成了！这是一个基于二阶段式GAN的图像修复网站，主要功能都比较简单，可以通过涂抹的方式对需要修复的图像进行修复，整体框架上使用了Django，模型使用了[EdgeConnect](https://github.com/knazeri/edge-connect)，界面美化使用bootstrap，本来想再参考其他模型再对其改进，但由于时间比较匆忙，就选择了这个开源比较完整的模型，没有弄得很完美，但最后感觉效果还不错，上传分享一下。(仅供参考，切勿商业盈利)
+ >&emsp;&emsp;忙了很久，毕设终于完成了！这是一个基于二阶段式GAN的图像修复网站，主要功能都比较简单，可以通过涂抹的方式对需要修复的图像进行修复。   
+ >&emsp;&emsp;整体框架上使用了Django，模型使用了[EdgeConnect](https://github.com/knazeri/edge-connect)，界面美化使用bootstrap，本来想再参考其他模型再对其改进，但由于时间比较匆忙，就选择了这个开源比较完整的模型，没有弄得很完美，但最后感觉效果还不错，上传分享一下。  
+ >&emsp;&emsp;(仅供参考，切勿商业盈利)
  >
  > ![image](https://user-images.githubusercontent.com/46208115/167092889-9f8d6420-5e0e-409f-a597-95aae2f21d3c.png)
 ---
 ## 文献分享  
- >在准备毕业论文过程中，本人整理了近年来关于inpainting的pdf文献（收集了16-22年计算机视觉三大顶会（CVPR、ICCV、ECCV）和（WACV、ACCV）等顶会大概50篇左右关于inpainting的论文，收寻的数量上重点在近三四年，早年主要寻求代表作），并且整理了表格（表格中整理了相关文献的摘要、介绍、结论等内容），如果需要该资料，[请点击这里](https://drive.google.com/file/d/1nFDeJMDdcGJxqwqJ0MdTGMFpPS2uCUYZ/view?usp=sharing)。
+ >&emsp;&emsp;在准备毕业论文过程中，本人整理了近年来关于inpainting的pdf文献（收集了16-22年计算机视觉三大顶会（CVPR、ICCV、ECCV）和（WACV、ACCV）等顶会大概50篇左右关于inpainting的论文，收寻的数量上重点在近三四年，早年主要寻求代表作），并且整理了表格（表格中整理了相关文献的摘要、介绍、结论等内容），如果需要该资料，[请点击这里](https://drive.google.com/file/d/1nFDeJMDdcGJxqwqJ0MdTGMFpPS2uCUYZ/view?usp=sharing)。
 ---
 ## 模型介绍
  >![image](https://user-images.githubusercontent.com/46208115/167091435-d5771bdd-052a-4a34-b61d-3b85738ee1a3.png)
->>注意：其中因模型权重文件大小限制，需要自行命令行[下载](https://github.com/knazeri/edge-connect)
+>>  注意：其中因模型权重文件大小限制，需要自行命令行[下载](https://github.com/knazeri/edge-connect)
 ## 平台展示
  >![image](https://user-images.githubusercontent.com/46208115/167090145-4fb215e9-577b-4b6f-aa94-20603faf44f7.png)
  >![image](https://user-images.githubusercontent.com/46208115/167090202-5c938ec8-c2fd-4b9f-bca2-5c6428c6491f.png)
@@ -25,4 +27,4 @@
  >![image](https://user-images.githubusercontent.com/46208115/167090729-eb6fad14-23c3-4762-90ca-8f07ea4cbbf1.png)
 ---
 ## Ending
->假如对你有帮助，请别忘记star！
+>  假如对你有帮助，请别忘记star！
