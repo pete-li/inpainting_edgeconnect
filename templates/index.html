@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %} 深度学习图像修复平台 | 首页 {% endblock title %}
+{% load static %}
+{% block content %}
+
+<div class="container text-center pt-5 my-3">
+  <div>
+    <input type="range" min="0" max="20" step="1" class="custom-range" id="customRange1" style="width: 200px">
+  </div>
+  <div class="my-3">
+    <canvas id="canvas" style="position: absolute;"></canvas>
+    <img id="upload_img" src="{{user.upload_path}}" alt="upload_img"
+      style="width: 256px;height: 256px;object-fit: cover;object-position: center;">
+  </div>
+  <div>
+    <button class="btn btn-warning" id="clean"><i class="bi bi-eraser"></i> 擦除掩模</button>
+    <input id="select_file" type="file" accept="image/jpg, image/jpeg, image/png, image/webp" hidden>
+    <button class="btn btn-primary" id="upload_bt" style="margin:0 16px;">
+      <i class="bi bi-upload"></i>
+      上传图像
+      <div class="spinner-border spinner-border-sm" id="upload_loading" role="status" style="display: none;">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </button>
+    <button class="btn" id="inpainting" style="background-color: #19aa8d;color: white;">
+      <i class="bi bi-tools"></i>
+      开始修复
+      <div class="spinner-border spinner-border-sm" id="inpainting_loading" role="status" style="display: none;">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </button>
+  </div>
+
+  <select id="img_type" class="form-select m-auto mt-3 text-center" style="width: 220px;">
+    {% if user.img_type == 1 %}
+    <option value="1" selected>图像类型：人脸/人像</option>
+    <option value="2">图像类型：场景/风景</option>
+    {% else %}
+    <option value="1">图像类型：人脸/人像</option>
+    <option value="2" selected>图像类型：场景/风景</option>
+    {% endif %}
+  </select>
+
+</div>
+<script>
+
+</script>
+<script src="{% static 'js/index.js' %}"></script>
+{% endblock content %}

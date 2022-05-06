@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block title %} 深度学习图像修复平台 | 下载 {% endblock title %}
+{% load static %}
+{% block content %}
+
+<div class="container text-center pt-1">
+  <h6 class="mt-3">
+    <img class="mb-4" src="{% static 'media/smile.png' %}" alt="" width="40">
+    图像修复完成！
+  </h6>
+  <div class="my-3">
+    <img id="result_img" src="{{user.result_path}}" alt="result_img" height="256px">
+  </div>
+  <div>
+    <button class="btn btn-secondary" id="back_home">
+      <i class="bi bi-arrow-return-left"></i>
+      取消返回
+    </button>
+    <button class="btn btn-warning" id="download_bt" style="margin:0 16px;">
+      <i class="bi bi-download"></i>
+      下载保存
+    </button>
+  </div>
+
+
+  <h4 style="text-align: left;margin-top: 62px;margin-bottom: 32px;">修复效果：</h4>
+  <div class="row row-cols-4 mt-2 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-dark">
+        <div class="card-header text-white bg-dark border-dark">
+          <h6 class="my-0 fw-normal">输入图像</h6>
+        </div>
+        <div class="card-body">
+          <img id="result_img" src="{{user.upload_path}}" alt="result_img"
+          style="width: 256px;height: 256px;object-fit: cover;object-position: center;">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-dark">
+        <div class="card-header text-white bg-dark border-dark">
+          <h6 class="my-0 fw-normal">掩模合成</h6>
+        </div>
+        <div class="card-body">
+          <img id="result_img" src="{{user.masked_path}}" alt="result_img" height="256px">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-dark">
+        <div class="card-header text-white bg-dark border-dark">
+          <h6 class="my-0 fw-normal">边缘修复</h6>
+        </div>
+        <div class="card-body">
+          <img id="result_img" src="{{user.edge_path}}" alt="result_img" height="256px">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-dark">
+        <div class="card-header text-white bg-dark border-dark">
+          <h6 class="my-0 fw-normal">输出图像</h6>
+        </div>
+        <div class="card-body">
+          <img id="result_img" src="{{user.result_path}}" alt="result_img" height="256px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="{% static 'js/download.js' %}"></script>
+{% endblock content %}

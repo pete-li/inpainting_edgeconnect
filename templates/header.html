@@ -1,0 +1,44 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container">
+
+    <a href="/index" class="navbar-brand">
+      <img src="{% static 'media/icon.png' %}" alt="robot" width="40" height="40" />
+      <span class="fs-5">深度学习图像修复平台</span>
+    </a>
+
+    <div class="text-end">
+      {% if ticket %}
+      <span class="fs-5" style="color: white;">欢迎,{{ user.name }}&nbsp;&nbsp;&nbsp;</span>
+      <button type="button" id="logout_bt" class="btn btn-outline-light me-2">退出</button>
+      {% else %}
+      <button type="button" id="login" class="btn btn-outline-light me-2">登录</button>
+      <button type="button" id="register" class="btn btn-warning">注册</button>
+      {% endif %}
+
+    </div>
+  </div>
+</nav>
+
+<script type="text/javascript">
+  let login = document.getElementById('login')
+  let register = document.getElementById('register')
+  if (login) {
+    login.onclick = function () {
+      window.location.replace('/login')
+    }
+
+    register.onclick = function () {
+      window.location.replace('/register')
+    }
+  }
+
+
+  let logout_bt = document.getElementById('logout_bt')
+  if (logout_bt) {
+    logout_bt.onclick = function () {
+      window.location.replace('/logout')
+    }
+  }
+
+</script>

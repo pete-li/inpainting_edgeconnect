@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %} 深度学习图像修复平台 | 登录 {% endblock title %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}" />
+
+<div class="warp text-center">
+  <main class="form-signin">
+    <form id="form_login" action="/login/" method="post">
+      <img class="mb-4" src="{% static 'media/icon.png' %}" alt="" width="80">
+      <h1 class="h4 mb-4 fw-normal welcome">欢迎来到图像修复平台！</h1>
+
+      <div class="form-floating">
+        <input type="email" name="email" class="form-control" value="{{r_email}}" id="emailInput"
+          placeholder="name@example.com">
+        <label for="emailInput" style="color: #999;">邮箱地址</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" name="password" class="form-control" value="{{r_password}}" id="pwdInput"
+          placeholder="Password">
+        <label for="pwdInput" style="color: #999;">密码</label>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input id="checkbox" type="checkbox" name="remember"> 记住账号和密码
+        </label>
+      </div>
+      <button id="login_bt" class="w-100 btn btn-lg btn-dark btn-outline-light">登录</button>
+    </form>
+  </main>
+</div>
+
+<script src="{% static 'js/login.js' %}"></script>
+{% endblock content %}
