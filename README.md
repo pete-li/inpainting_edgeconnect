@@ -11,7 +11,7 @@
 ## 模型介绍
  >![image](https://user-images.githubusercontent.com/46208115/167091435-d5771bdd-052a-4a34-b61d-3b85738ee1a3.png)
 ## 数据集
-> 该模型文件使用[Places2](http://places2.csail.mit.edu/)、[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)和[Paris Street-View](https://github.com/pathak22/context-encoder)数据集。要在完整数据集上训练模型，请从官方网站下载数据集。
+> 该模型文件使用[Places2](http://places2.csail.mit.edu/)、[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)和[Paris Street-View](https://github.com/pathak22/context-encoder)数据集训练而成。要在完整数据集上训练模型，请从官方网站下载数据集。
 >>  注意：其中因模型权重文件大小限制，需要自行[命令行下载](https://github.com/knazeri/edge-connect)
 ## 平台展示
  >![image](https://user-images.githubusercontent.com/46208115/167090145-4fb215e9-577b-4b6f-aa94-20603faf44f7.png)
