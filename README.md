@@ -29,4 +29,4 @@
  >![image](https://user-images.githubusercontent.com/46208115/167090729-eb6fad14-23c3-4762-90ca-8f07ea4cbbf1.png)
 ---
 ## Ending
->  如果该源码对你有帮助，欢迎Star！:gift:
+>  如果该源码对你有帮助，欢迎[Star](https://github.com/pete-li/inpainting_edgeconnect/#)！:gift:
