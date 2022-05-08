@@ -18,6 +18,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='user',
             name='result_path',
-            field=models.CharField(default='./statics/media/result.jpg', max_length=20),
+            field=models.CharField(default='./static/media/result.jpg', max_length=20),
         ),
     ]

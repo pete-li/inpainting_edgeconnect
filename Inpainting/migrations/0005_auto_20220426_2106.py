@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='user',
             name='mask_path',
-            field=models.CharField(default='./statics/media/mask.png', max_length=255),
+            field=models.CharField(default='./static/media/mask.png', max_length=255),
         ),
         migrations.AlterField(
             model_name='user',
@@ -28,11 +28,11 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='user',
             name='result_path',
-            field=models.CharField(default='./statics/media/result.jpg', max_length=255),
+            field=models.CharField(default='./static/media/result.jpg', max_length=255),
         ),
         migrations.AlterField(
             model_name='user',
             name='upload_path',
-            field=models.CharField(default='./statics/media/upload.jpg', max_length=255),
+            field=models.CharField(default='./static/media/upload.jpg', max_length=255),
         ),
     ]

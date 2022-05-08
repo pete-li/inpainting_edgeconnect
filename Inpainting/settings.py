@@ -26,7 +26,7 @@ SECRET_KEY = 'exs^#y^%hnk)-pt(4+!&42@@ol3a8g_os*ktn2_khv-$1!uwf$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,9 +120,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS =[os.path.join(BASE_DIR, 'statics/')]
-MEDIA_URL = '/statics/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media')
+STATICFILES_DIRS =[os.path.join(BASE_DIR, 'static/')]
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 ASGI_APPLICATION = 'Inpainting.asgi.application'
 CHANNEL_LAYERS = {

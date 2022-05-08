@@ -108,7 +108,7 @@ def upload(request):
         now = str(int(time.time()))
         suffix = uploadImg.name.split(".")[-1]
         upload_name = user.name+'_upload_'+now+'.'+suffix
-        inputPath = './statics/media/userStorage/' + upload_name
+        inputPath = './static/media/userStorage/' + upload_name
         with open(inputPath, 'wb') as f:
             f.write(uploadImg.read())
         user.upload_path = '/static/media/userStorage/' + upload_name
@@ -125,7 +125,7 @@ def inpainting(request):
         user = User.objects.get(email=email)
         now = str(int(time.time()))
         mask_name = user.name+'_mask_'+now+'.png'
-        mask_path = './statics/media/userStorage/' + mask_name
+        mask_path = './static/media/userStorage/' + mask_name
         with open(mask_path, 'wb') as f:
             f.write(mask_img.read())
 

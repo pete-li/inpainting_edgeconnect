@@ -15,8 +15,8 @@ def inpaintingImg(upload_name,img_type,mask_path,masked_name,edge_name,result_na
     else:
         checkpoints = './Inpainting/edgeConnect/checkpoints/places2'
         
-    input_path = './statics/media/userStorage/' + upload_name
-    output_path = './statics/media/userStorage/'
+    input_path = './static/media/userStorage/' + upload_name
+    output_path = './static/media/userStorage/'
 
     
     L_image=Image.open(input_path)

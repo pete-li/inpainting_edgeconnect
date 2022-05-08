@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('email', models.CharField(max_length=20)),
                 ('pwd', models.CharField(max_length=20)),
                 ('img_type', models.IntegerField(default=1)),
-                ('img_path', models.CharField(default='./statics/media/upload.jpg', max_length=20)),
+                ('img_path', models.CharField(default='./static/media/upload.jpg', max_length=20)),
                 ('create_time', models.DateTimeField()),
             ],
         ),

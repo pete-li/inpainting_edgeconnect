@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='user',
             name='mask_path',
-            field=models.CharField(default='./statics/media/mask.png', max_length=20),
+            field=models.CharField(default='./static/media/mask.png', max_length=20),
         ),
     ]
