@@ -18,9 +18,11 @@ def index(request):
             return HttpResponseRedirect('/login/')
         if User.objects.filter(ticket=ticket).exists():
             user = User.objects.get(email=email)
-            template = get_template('index.html')
-            html = template.render(locals())
-            return HttpResponse(html)
+            # template = get_template('index.html')
+            # html = template.render(locals())
+            # return HttpResponse(html)
+            return render(request,'index.html',locals())
+    return HttpResponseRedirect('/login/')
 
 
 def download(request):
@@ -33,7 +35,9 @@ def download(request):
             user = User.objects.get(email=email)
             template = get_template('download.html')
             html = template.render(locals())
-            return HttpResponse(html)
+            return render(request,'download.html',locals())
+            # return HttpResponse(html)
+    return HttpResponseRedirect('/login/')
 
 
 def register(request):
