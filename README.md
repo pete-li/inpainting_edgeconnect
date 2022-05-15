@@ -7,7 +7,8 @@
  > ![image](https://user-images.githubusercontent.com/46208115/167092889-9f8d6420-5e0e-409f-a597-95aae2f21d3c.png)
 ---
 ## 文献分享  
- >&emsp;&emsp;在准备毕业论文过程中，本人整理了近年来关于inpainting的pdf文献（收集了16-22年计算机视觉三大顶会（CVPR、ICCV、ECCV）和（WACV、ACCV）等顶会大概50篇左右关于inpainting的论文，收寻的数量上重点在近三四年，早年主要寻求代表作），并且整理了表格（表格中整理了相关文献的摘要、介绍、结论等内容，中英对照），如果需要该资料，[请点击这里(Google云端)](https://drive.google.com/file/d/1nFDeJMDdcGJxqwqJ0MdTGMFpPS2uCUYZ/view?usp=sharing) 。([百度网盘](https://pan.baidu.com/s/1v__UUyWBSrjKyx3m9vg_Kw))提取码：`vjuj`
+ >&emsp;&emsp;在准备毕业论文过程中，本人整理了近年来关于inpainting的pdf文献（收集了16-22年计算机视觉三大顶会（CVPR、ICCV、ECCV）和（WACV、ACCV）等顶会大概50篇左右关于inpainting的论文，收寻的数量上重点在近三四年，早年主要寻求代表作），并且整理了表格（表格中整理了相关文献的摘要、介绍、结论等内容，中英对照），如果需要该资料，[请点击这里(Google云端)](https://drive.google.com/file/d/1nFDeJMDdcGJxqwqJ0MdTGMFpPS2uCUYZ/view?usp=sharing) 。  
+ >([百度网盘](https://pan.baidu.com/s/1v__UUyWBSrjKyx3m9vg_Kw))提取码：`vjuj`
  >
  >![image](https://user-images.githubusercontent.com/46208115/167785715-fb623839-e08b-463a-a215-b59b77fc2f89.png)
  >![image](https://user-images.githubusercontent.com/46208115/167785823-091bc9b4-9ec8-4640-8a58-b24268edd9eb.png)
