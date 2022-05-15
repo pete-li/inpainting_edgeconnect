@@ -18,8 +18,8 @@
 > 该模型文件使用[Places2](http://places2.csail.mit.edu/)、[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)和[Paris Street-View](https://github.com/pathak22/context-encoder)数据集训练而成。要在完整数据集上训练模型，请从官方网站下载数据集。
 
 ## 权重模型
->  注意：其中因模型权重文件大小限制，需要自行[命令行下载](https://github.com/knazeri/edge-connect)    
->  权重文件读取路径：`Inpainting\edgeConnect\checkpoints\XX`
+>  权重文件读取路径（自行创建）：`Inpainting\edgeConnect\checkpoints\XX`  
+>  >  注意：其中因模型权重文件大小限制，需要自行[命令行下载](https://github.com/knazeri/edge-connect)    （定位至下图）
 >  ![image](https://user-images.githubusercontent.com/46208115/167902970-4984feca-ae45-4d66-8000-92fef6b89fa3.png)
 
 ## 平台展示
