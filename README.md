@@ -4,7 +4,8 @@
  >&emsp;&emsp;如果该源码或内容对您有帮助，欢迎[Star支持一下](https://github.com/pete-li/inpainting_edgeconnect/#)！🎁  
  >&emsp;&emsp;(仅供参考，请勿作商业用途)
  >
- > ![image](https://user-images.githubusercontent.com/46208115/167092889-9f8d6420-5e0e-409f-a597-95aae2f21d3c.png)
+ >![动画](https://user-images.githubusercontent.com/46208115/171236082-c0bbba13-7a6e-4ba6-8875-ff6660ef2cad.gif)
+
 ---
 ## 模型介绍
  >![image](https://user-images.githubusercontent.com/46208115/167091435-d5771bdd-052a-4a34-b61d-3b85738ee1a3.png)
