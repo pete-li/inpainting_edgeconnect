@@ -1,7 +1,7 @@
 ﻿# 深度学习图像修复平台  
  > `PS：该开源分享旨在帮助图像修复相关赶论文或科研相关的guy们提供一些启发性，因为在搜集资料过程中还是比较痛苦的 T~T 希望对你们有帮助！`
  >
- >&emsp;&emsp;忙了很久，毕业论文终于写完了:tada:！这是一个基于二阶段式GAN的图像修复网站，主要功能都比较简单，可以通过涂抹的方式对需要修复的图像进行修复。   
+ >&emsp;&emsp;忙了很久，毕业论文终于写完了！这是一个基于二阶段式GAN的图像修复网站，主要功能都比较简单，可以通过涂抹的方式对需要修复的图像进行修复。   
  >&emsp;&emsp;整体框架上采用[Django](https://www.runoob.com/django/django-tutorial.html)【[官网](https://docs.djangoproject.com/zh-hans/4.0/)】，模型使用了[EdgeConnect](https://github.com/knazeri/edge-connect)，该论文还是有研究价值的（关于信息先验），想看其他相关最新的模型（截止2022年4月）请移步下方“文献分享”，由本人整理），时间仓促，代码没有做得很完美，但最后感觉效果还不错，上传分享一下。  
  >&emsp;&emsp;如果该源码或内容对您有帮助，欢迎[Star支持一下](https://github.com/pete-li/inpainting_edgeconnect/#)！🎁  
  >&emsp;&emsp;(仅供参考，请勿作商业用途)
